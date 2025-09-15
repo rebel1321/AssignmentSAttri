@@ -1,0 +1,108 @@
+[
+  {
+    "id": "c1",
+    "name": "MSA 2025",
+    "parties": "Microsoft & ABC Corp",
+    "expiry": "2025-12-31",
+    "status": "Active",
+    "risk": "Medium",
+    "start": "2023-01-01",
+    "clauses": [
+      { "title": "Termination", "summary": "90 days notice period required for contract termination.", "confidence": 0.82 },
+      { "title": "Liability Cap", "summary": "Total liability limited to 12 months' fees.", "confidence": 0.87 },
+      { "title": "Data Protection", "summary": "GDPR compliance required for all data processing.", "confidence": 0.95 }
+    ],
+    "insights": [
+      { "risk": "High", "message": "Liability cap excludes data breach costs." },
+      { "risk": "Medium", "message": "Renewal auto-renews unless cancelled 60 days before expiry." }
+    ],
+    "evidence": [
+      { "source": "Section 12.2", "snippet": "Total liability limited to 12 months' fees.", "relevance": 0.91 },
+      { "source": "Section 8.1", "snippet": "Either party may terminate with 90 days written notice.", "relevance": 0.88 }
+    ]
+  },
+  {
+    "id": "c2",
+    "name": "Network Services Agreement",
+    "parties": "TelNet & ABC Corp",
+    "expiry": "2025-10-10",
+    "status": "Renewal Due",
+    "risk": "High",
+    "start": "2022-10-10",
+    "clauses": [
+      { "title": "Service Level", "summary": "99.9% uptime guarantee with penalties.", "confidence": 0.91 },
+      { "title": "Payment Terms", "summary": "Net 30 payment terms with late fees.", "confidence": 0.85 }
+    ],
+    "insights": [
+      { "risk": "High", "message": "SLA penalties could result in significant financial exposure." },
+      { "risk": "High", "message": "Contract expires soon and requires immediate attention." }
+    ],
+    "evidence": [
+      { "source": "Section 3.1", "snippet": "Service availability must maintain 99.9% uptime.", "relevance": 0.94 },
+      { "source": "Section 5.2", "snippet": "Payment due within 30 days of invoice date.", "relevance": 0.82 }
+    ]
+  },
+  {
+    "id": "c3",
+    "name": "Software License Agreement",
+    "parties": "Adobe & ABC Corp",
+    "expiry": "2026-06-15",
+    "status": "Active",
+    "risk": "Low",
+    "start": "2024-06-15",
+    "clauses": [
+      { "title": "Usage Rights", "summary": "Unlimited users within organization.", "confidence": 0.89 },
+      { "title": "Support", "summary": "24/7 technical support included.", "confidence": 0.92 }
+    ],
+    "insights": [
+      { "risk": "Low", "message": "Standard license terms with minimal risk exposure." },
+      { "risk": "Medium", "message": "Auto-renewal clause may increase costs without notice." }
+    ],
+    "evidence": [
+      { "source": "Section 2.1", "snippet": "License grants unlimited use within licensee organization.", "relevance": 0.96 },
+      { "source": "Section 7.3", "snippet": "Support services available 24 hours daily.", "relevance": 0.87 }
+    ]
+  },
+  {
+    "id": "c4",
+    "name": "Cloud Storage Agreement",
+    "parties": "AWS & ABC Corp",
+    "expiry": "2025-03-20",
+    "status": "Active",
+    "risk": "Medium",
+    "start": "2023-03-20",
+    "clauses": [
+      { "title": "Data Retention", "summary": "30-day retention after account closure.", "confidence": 0.88 },
+      { "title": "Security", "summary": "Enterprise-grade encryption standards.", "confidence": 0.94 }
+    ],
+    "insights": [
+      { "risk": "Medium", "message": "Data retention period may be insufficient for compliance." },
+      { "risk": "Low", "message": "Security standards meet industry requirements." }
+    ],
+    "evidence": [
+      { "source": "Section 4.2", "snippet": "Data retained for 30 days post-termination.", "relevance": 0.89 },
+      { "source": "Section 6.1", "snippet": "AES-256 encryption for data at rest.", "relevance": 0.92 }
+    ]
+  },
+  {
+    "id": "c5",
+    "name": "Marketing Services Contract",
+    "parties": "MarketPro & ABC Corp",
+    "expiry": "2024-12-31",
+    "status": "Expired",
+    "risk": "Low",
+    "start": "2024-01-01",
+    "clauses": [
+      { "title": "Deliverables", "summary": "Monthly campaign reports and analytics.", "confidence": 0.86 },
+      { "title": "Performance", "summary": "Guaranteed 15% increase in lead generation.", "confidence": 0.79 }
+    ],
+    "insights": [
+      { "risk": "Low", "message": "Contract has expired, renewal decision pending." },
+      { "risk": "Medium", "message": "Performance guarantees were not met in final quarter." }
+    ],
+    "evidence": [
+      { "source": "Section 3.1", "snippet": "Monthly reports due by 5th of following month.", "relevance": 0.85 },
+      { "source": "Section 2.3", "snippet": "15% increase in qualified leads guaranteed.", "relevance": 0.81 }
+    ]
+  }
+]
